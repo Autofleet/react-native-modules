@@ -1,0 +1,31 @@
+{
+  "name": "@autofleet/{package name}",
+  "version": "0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node  src/index.ts",
+    "build": "tsc",
+    "linter": "./node_modules/.bin/eslint .",
+    "test": "jest --forceExit",
+    "coverage": "jest --coverage --forceExit && rm -rf ./coverage",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^27.0.5",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "author": "Autofleet",
+  "license": "ISC",
+  "peerDependencies": {
+  }
+}

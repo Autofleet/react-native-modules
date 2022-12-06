@@ -1,0 +1,8 @@
+.github
+jest.config.js
+.idea
+.vscode
+**.test.*
+nodemon.json
+.eslintrc.json
+**/example.*
